@@ -28,6 +28,9 @@
 
 # site block, listens on the $PORT environment variable, automatically assigned by railway
 :{$PORT} {
+
+	tls
+
 	# access logs
 	log {
 		format json # set access log format to json mode
